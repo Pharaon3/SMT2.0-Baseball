@@ -1,0 +1,3093 @@
+{
+    "queryUrl": "match_timeline\/38909407",
+    "doc": [
+        {
+            "event": "match_timeline",
+            "_dob": 1677125702,
+            "_maxage": 20,
+            "data": {
+                "match": {
+                    "_doc": "match",
+                    "_id": 38909407,
+                    "_sid": 3,
+                    "_seasonid": 102201,
+                    "_rcid": 211,
+                    "_tid": 12575,
+                    "_utid": 33852,
+                    "_dt": {
+                        "_doc": "time",
+                        "time": "04:00",
+                        "date": "23\/02\/23",
+                        "tz": "UTC",
+                        "tzoffset": 0,
+                        "uts": 1677124800
+                    },
+                    "week": 8,
+                    "coverage": {
+                        "lineup": 0,
+                        "formations": 0,
+                        "livetable": 0,
+                        "injuries": 0,
+                        "ballspotting": false,
+                        "cornersonly": true,
+                        "multicast": false,
+                        "scoutmatch": 1,
+                        "scoutcoveragestatus": 0,
+                        "scoutconnected": true,
+                        "liveodds": true,
+                        "deepercoverage": false,
+                        "tacticallineup": false,
+                        "basiclineup": false,
+                        "hasstats": true,
+                        "inlivescore": true,
+                        "advantage": null,
+                        "tiebreak": null,
+                        "paperscorecard": null,
+                        "penaltyshootout": 1,
+                        "scouttest": false,
+                        "lmtsupport": 3,
+                        "venue": true,
+                        "matchdatacomplete": false,
+                        "mediacoverage": false,
+                        "substitutions": false
+                    },
+                    "result": {
+                        "home": 0,
+                        "away": 0,
+                        "winner": null
+                    },
+                    "periods": {
+                        "p1": {
+                            "home": 0,
+                            "away": 0
+                        }
+                    },
+                    "updated_uts": 1677125616,
+                    "ended_uts": false,
+                    "p": "31",
+                    "ptime": 1677125614,
+                    "timeinfo": {
+                        "injurytime": null,
+                        "ended": null,
+                        "started": null,
+                        "played": null,
+                        "remaining": null,
+                        "running": false
+                    },
+                    "teams": {
+                        "home": {
+                            "_doc": "team",
+                            "_id": 354472,
+                            "_sid": 3,
+                            "uid": 67108,
+                            "virtual": false,
+                            "name": "Tokyo Yakult",
+                            "mediumname": "Tokyo Yakult Swallows",
+                            "abbr": "TYS",
+                            "nickname": null,
+                            "iscountry": false,
+                            "haslogo": true
+                        },
+                        "away": {
+                            "_doc": "team",
+                            "_id": 354476,
+                            "_sid": 3,
+                            "uid": 34374,
+                            "virtual": false,
+                            "name": "Yomiuri Giants",
+                            "mediumname": "Yomiuri Giants",
+                            "abbr": "YOG",
+                            "nickname": null,
+                            "iscountry": false,
+                            "haslogo": true
+                        }
+                    },
+                    "status": {
+                        "_doc": "status",
+                        "_id": 30,
+                        "name": "Break"
+                    },
+                    "removed": false,
+                    "facts": false,
+                    "stadiumid": 7999,
+                    "localderby": false,
+                    "distance": 5,
+                    "weather": null,
+                    "pitchcondition": null,
+                    "temperature": null,
+                    "wind": null,
+                    "windadvantage": 0,
+                    "matchstatus": "live",
+                    "postponed": false,
+                    "cancelled": false,
+                    "walkover": false,
+                    "hf": 6,
+                    "periodlength": null,
+                    "numberofperiods": 9,
+                    "overtimelength": null,
+                    "tobeannounced": false,
+                    "inninghalf": 2,
+                    "livestate": {
+                        "_doc": "livestate_baseball",
+                        "pitcher": {
+                            "team": "away"
+                        },
+                        "batter": {
+                            "team": "home"
+                        },
+                        "batting_average": null,
+                        "inning_half": "P",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 3,
+                            "pitch_count": 0,
+                            "errors": 0
+                        }
+                    }
+                },
+                "events": [
+                    {
+                        "_doc": "event",
+                        "_id": 1382363033,
+                        "_scoutid": "5419407827-1024",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1024",
+                        "uts": 1677124647,
+                        "updated_uts": 1677124647,
+                        "type": "match_about_to_start",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Match about to start",
+                        "injurytime": 0,
+                        "team": ""
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364111,
+                        "_scoutid": "5419413845-10",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "10",
+                        "uts": 1677124864,
+                        "updated_uts": 1677124865,
+                        "type": "match_started",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Started",
+                        "injurytime": 0,
+                        "team": "",
+                        "result": {
+                            "home": 0,
+                            "away": 0
+                        },
+                        "status": {
+                            "_doc": "status",
+                            "_id": 20,
+                            "name": "Started"
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364115,
+                        "_scoutid": null,
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "24",
+                        "uts": 1677124864,
+                        "updated_uts": 1677124864,
+                        "type": "periodstart",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "1st inning",
+                        "injurytime": 0,
+                        "team": "",
+                        "period": 1
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364123,
+                        "_scoutid": "5419413845-2232",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2232",
+                        "uts": 1677124865,
+                        "updated_uts": 1677124865,
+                        "type": "half_inning_start",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Baseball half inning start",
+                        "injurytime": 0,
+                        "team": "",
+                        "inning_half": "T"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364141,
+                        "_scoutid": "5419413911-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124867,
+                        "updated_uts": 1677124867,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 2,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364211,
+                        "_scoutid": "5419414315-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677124879,
+                        "updated_uts": 1677124879,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 14,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 0,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364215,
+                        "_scoutid": "5419414319-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124879,
+                        "updated_uts": 1677124879,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 14,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364217,
+                        "_scoutid": "5419414335-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124879,
+                        "updated_uts": 1677124879,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 14,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364223,
+                        "_scoutid": "5419414389-2230",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2230",
+                        "uts": 1677124881,
+                        "updated_uts": 1677124881,
+                        "type": "ball_in_play",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 16,
+                        "name": "Ball in play",
+                        "injurytime": 0,
+                        "team": "away",
+                        "ball": {
+                            "speed_mph": null,
+                            "angle": null,
+                            "direction": null,
+                            "distance": null,
+                            "x": null,
+                            "y": null
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364243,
+                        "_scoutid": "5419414531-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677124885,
+                        "updated_uts": 1677124885,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 20,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "fly_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364249,
+                        "_scoutid": "5419414551-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124886,
+                        "updated_uts": 1677124886,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 21,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364407,
+                        "_scoutid": "5419415697-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124920,
+                        "updated_uts": 1677124920,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 54,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364423,
+                        "_scoutid": "5419415809-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677124922,
+                        "updated_uts": 1677124922,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 57,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 1,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364425,
+                        "_scoutid": "5419415811-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124922,
+                        "updated_uts": 1677124922,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 1,
+                        "seconds": 57,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364513,
+                        "_scoutid": "5419416435-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124938,
+                        "updated_uts": 1677124938,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 73,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364527,
+                        "_scoutid": "5419416479-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677124939,
+                        "updated_uts": 1677124939,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 74,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 2,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364531,
+                        "_scoutid": "5419416485-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124939,
+                        "updated_uts": 1677124939,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 74,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364623,
+                        "_scoutid": "5419417119-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124958,
+                        "updated_uts": 1677124958,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 93,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364625,
+                        "_scoutid": "5419417181-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677124961,
+                        "updated_uts": 1677124961,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 96,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 2,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364631,
+                        "_scoutid": "5419417187-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124962,
+                        "updated_uts": 1677124962,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 96,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364771,
+                        "_scoutid": "5419417957-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124982,
+                        "updated_uts": 1677124982,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 117,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364777,
+                        "_scoutid": "5419418013-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677124983,
+                        "updated_uts": 1677124983,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 118,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 2,
+                            "fs": 2,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364783,
+                        "_scoutid": "5419418017-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677124984,
+                        "updated_uts": 1677124984,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 2,
+                        "seconds": 118,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364875,
+                        "_scoutid": "5419418611-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677124999,
+                        "updated_uts": 1677124999,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 133,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364901,
+                        "_scoutid": "5419418805-2230",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2230",
+                        "uts": 1677125004,
+                        "updated_uts": 1677125004,
+                        "type": "ball_in_play",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 139,
+                        "name": "Ball in play",
+                        "injurytime": 0,
+                        "team": "away",
+                        "ball": {
+                            "speed_mph": null,
+                            "angle": null,
+                            "direction": null,
+                            "distance": null,
+                            "x": null,
+                            "y": null
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364917,
+                        "_scoutid": "5419418877-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677125006,
+                        "updated_uts": 1677125006,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 140,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "ground_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364919,
+                        "_scoutid": "5419418911-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125006,
+                        "updated_uts": 1677125006,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 141,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365101,
+                        "_scoutid": "5419420273-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125043,
+                        "updated_uts": 1677125043,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 178,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365107,
+                        "_scoutid": "5419420319-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125044,
+                        "updated_uts": 1677125044,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 179,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365113,
+                        "_scoutid": "5419420327-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125045,
+                        "updated_uts": 1677125045,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 3,
+                        "seconds": 179,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365211,
+                        "_scoutid": "5419421109-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125064,
+                        "updated_uts": 1677125064,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 199,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365217,
+                        "_scoutid": "5419421195-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125066,
+                        "updated_uts": 1677125066,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 201,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 2,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365229,
+                        "_scoutid": "5419421207-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125067,
+                        "updated_uts": 1677125067,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 201,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365285,
+                        "_scoutid": "5419421719-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125084,
+                        "updated_uts": 1677125084,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 218,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365287,
+                        "_scoutid": "5419421753-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125084,
+                        "updated_uts": 1677125084,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 219,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 2,
+                            "strikes": 1,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365301,
+                        "_scoutid": "5419421763-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125085,
+                        "updated_uts": 1677125085,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 4,
+                        "seconds": 219,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365383,
+                        "_scoutid": "5419422489-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125107,
+                        "updated_uts": 1677125107,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 242,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365401,
+                        "_scoutid": "5419422597-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125110,
+                        "updated_uts": 1677125110,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 244,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 3,
+                            "strikes": 1,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365403,
+                        "_scoutid": "5419422605-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125110,
+                        "updated_uts": 1677125110,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 244,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365579,
+                        "_scoutid": "5419423785-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125146,
+                        "updated_uts": 1677125146,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 281,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365581,
+                        "_scoutid": "5419423801-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125146,
+                        "updated_uts": 1677125146,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 281,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 4,
+                            "strikes": 1,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365583,
+                        "_scoutid": "5419423805-1727",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1727",
+                        "uts": 1677125146,
+                        "updated_uts": 1677125146,
+                        "type": "batter_advances_to_base_x",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 281,
+                        "name": "Batter advances to base X",
+                        "injurytime": 0,
+                        "team": "away",
+                        "runner": {
+                            "starting_base": 0,
+                            "ending_base": 1
+                        },
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "base_loadout": {
+                            "1": true,
+                            "2": false,
+                            "3": false
+                        },
+                        "advancement_type": "walk"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365585,
+                        "_scoutid": "5419423809-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125146,
+                        "updated_uts": 1677125146,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 5,
+                        "seconds": 281,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": true,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365699,
+                        "_scoutid": "5419424549-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125174,
+                        "updated_uts": 1677125174,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 308,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365701,
+                        "_scoutid": "5419424569-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125174,
+                        "updated_uts": 1677125174,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 309,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 1,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "foul_ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365703,
+                        "_scoutid": "5419424573-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125174,
+                        "updated_uts": 1677125174,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 309,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": true,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365865,
+                        "_scoutid": "5419425209-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125201,
+                        "updated_uts": 1677125201,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 336,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365867,
+                        "_scoutid": "5419425221-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125202,
+                        "updated_uts": 1677125202,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 337,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 2,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "foul_ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365869,
+                        "_scoutid": "5419425223-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125202,
+                        "updated_uts": 1677125202,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 6,
+                        "seconds": 337,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": true,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365969,
+                        "_scoutid": "5419425881-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125229,
+                        "updated_uts": 1677125229,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 364,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365981,
+                        "_scoutid": "5419425973-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125232,
+                        "updated_uts": 1677125232,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 367,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 2,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382365983,
+                        "_scoutid": "5419425977-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125232,
+                        "updated_uts": 1677125232,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 367,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": true,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366063,
+                        "_scoutid": "5419426493-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125251,
+                        "updated_uts": 1677125251,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 386,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366079,
+                        "_scoutid": "5419426555-2230",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2230",
+                        "uts": 1677125255,
+                        "updated_uts": 1677125255,
+                        "type": "ball_in_play",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 389,
+                        "name": "Ball in play",
+                        "injurytime": 0,
+                        "team": "away",
+                        "ball": {
+                            "speed_mph": null,
+                            "angle": null,
+                            "direction": null,
+                            "distance": null,
+                            "x": null,
+                            "y": null
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366119,
+                        "_scoutid": "5419426687-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677125262,
+                        "updated_uts": 1677125262,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 397,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "away",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 3,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "line_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366121,
+                        "_scoutid": "5419426689-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125262,
+                        "updated_uts": 1677125262,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 397,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "away",
+                        "bases": {
+                            "1": {
+                                "occupied": true,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366129,
+                        "_scoutid": "5419426691-2232",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2232",
+                        "uts": 1677125263,
+                        "updated_uts": 1677125263,
+                        "type": "half_inning_start",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 7,
+                        "seconds": 397,
+                        "name": "Baseball half inning start",
+                        "injurytime": 0,
+                        "team": "",
+                        "inning_half": "P"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366737,
+                        "_scoutid": "5419430233-2232",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2232",
+                        "uts": 1677125396,
+                        "updated_uts": 1677125396,
+                        "type": "half_inning_start",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 9,
+                        "seconds": 531,
+                        "name": "Baseball half inning start",
+                        "injurytime": 0,
+                        "team": "",
+                        "inning_half": "B"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364087,
+                        "_scoutid": "5419430571-1725",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1725",
+                        "uts": 1677124862,
+                        "updated_uts": 1677125408,
+                        "type": "who_throws_first_pitch",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Who throws the first pitch",
+                        "injurytime": 0,
+                        "team": "home"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366891,
+                        "_scoutid": "5419430939-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125417,
+                        "updated_uts": 1677125417,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 552,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366957,
+                        "_scoutid": "5419431385-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125431,
+                        "updated_uts": 1677125431,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 566,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 1,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366961,
+                        "_scoutid": "5419431387-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125431,
+                        "updated_uts": 1677125431,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 566,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366991,
+                        "_scoutid": "5419431515-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125435,
+                        "updated_uts": 1677125435,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 570,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366995,
+                        "_scoutid": "5419431563-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125436,
+                        "updated_uts": 1677125436,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 571,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 2,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382366997,
+                        "_scoutid": "5419431565-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125436,
+                        "updated_uts": 1677125436,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 571,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367005,
+                        "_scoutid": "5419431615-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125438,
+                        "updated_uts": 1677125438,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 572,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367007,
+                        "_scoutid": "5419431635-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125438,
+                        "updated_uts": 1677125438,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 573,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 2,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367009,
+                        "_scoutid": "5419431641-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125438,
+                        "updated_uts": 1677125438,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 573,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367023,
+                        "_scoutid": "5419431757-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125442,
+                        "updated_uts": 1677125442,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 577,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367041,
+                        "_scoutid": "5419431849-1724",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1724",
+                        "uts": 1677125445,
+                        "updated_uts": 1677125445,
+                        "type": "foul_ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 579,
+                        "name": "Foul ball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 2,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367043,
+                        "_scoutid": "5419431857-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125445,
+                        "updated_uts": 1677125445,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 579,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367049,
+                        "_scoutid": "5419431881-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125446,
+                        "updated_uts": 1677125446,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 580,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367057,
+                        "_scoutid": "5419431957-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125447,
+                        "updated_uts": 1677125447,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 582,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 3,
+                            "outs": 0,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "unknown"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367061,
+                        "_scoutid": "5419431961-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677125447,
+                        "updated_uts": 1677125447,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 582,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "strike_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367065,
+                        "_scoutid": "5419431965-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125448,
+                        "updated_uts": 1677125448,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 10,
+                        "seconds": 582,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367197,
+                        "_scoutid": "5419432849-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125476,
+                        "updated_uts": 1677125476,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 610,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367215,
+                        "_scoutid": "5419432905-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125477,
+                        "updated_uts": 1677125477,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 612,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 0,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367217,
+                        "_scoutid": "5419432911-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125477,
+                        "updated_uts": 1677125477,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 612,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367257,
+                        "_scoutid": "5419433229-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125487,
+                        "updated_uts": 1677125487,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 622,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367293,
+                        "_scoutid": "5419433311-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125490,
+                        "updated_uts": 1677125490,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 624,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 2,
+                            "strikes": 0,
+                            "outs": 1,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367295,
+                        "_scoutid": "5419433315-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125490,
+                        "updated_uts": 1677125490,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 624,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367365,
+                        "_scoutid": "5419433797-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125507,
+                        "updated_uts": 1677125507,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 641,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367367,
+                        "_scoutid": "5419433811-2230",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2230",
+                        "uts": 1677125507,
+                        "updated_uts": 1677125507,
+                        "type": "ball_in_play",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 642,
+                        "name": "Ball in play",
+                        "injurytime": 0,
+                        "team": "home",
+                        "ball": {
+                            "speed_mph": null,
+                            "angle": null,
+                            "direction": null,
+                            "distance": null,
+                            "x": null,
+                            "y": null
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367381,
+                        "_scoutid": "5419433881-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677125510,
+                        "updated_uts": 1677125510,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 644,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "ground_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367383,
+                        "_scoutid": "5419433909-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125510,
+                        "updated_uts": 1677125510,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 11,
+                        "seconds": 645,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367575,
+                        "_scoutid": "5419435097-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125549,
+                        "updated_uts": 1677125549,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 684,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367585,
+                        "_scoutid": "5419435123-1723",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1723",
+                        "uts": 1677125551,
+                        "updated_uts": 1677125551,
+                        "type": "ball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 685,
+                        "name": "Ball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 0,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "ball_type": "ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367587,
+                        "_scoutid": "5419435127-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125551,
+                        "updated_uts": 1677125551,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 685,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367693,
+                        "_scoutid": "5419435649-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125565,
+                        "updated_uts": 1677125565,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 700,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367707,
+                        "_scoutid": "5419435717-1722",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1722",
+                        "uts": 1677125568,
+                        "updated_uts": 1677125568,
+                        "type": "strike",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 703,
+                        "name": "Strike",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 1,
+                            "strikes": 1,
+                            "outs": 2,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "strike_type": "foul_ball"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367711,
+                        "_scoutid": "5419435721-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125568,
+                        "updated_uts": 1677125568,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 12,
+                        "seconds": 703,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367871,
+                        "_scoutid": "5419436863-1715",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1715",
+                        "uts": 1677125607,
+                        "updated_uts": 1677125607,
+                        "type": "play_start_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 13,
+                        "seconds": 742,
+                        "name": "Play start baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": null
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367905,
+                        "_scoutid": "5419437035-2230",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2230",
+                        "uts": 1677125613,
+                        "updated_uts": 1677125613,
+                        "type": "ball_in_play",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 13,
+                        "seconds": 748,
+                        "name": "Ball in play",
+                        "injurytime": 0,
+                        "team": "home",
+                        "ball": {
+                            "speed_mph": null,
+                            "angle": null,
+                            "direction": null,
+                            "distance": null,
+                            "x": null,
+                            "y": null
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367923,
+                        "_scoutid": "5419437105-1726",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1726",
+                        "uts": 1677125615,
+                        "updated_uts": 1677125615,
+                        "type": "batter_out",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 13,
+                        "seconds": 750,
+                        "name": "Batter out",
+                        "injurytime": 0,
+                        "team": "home",
+                        "batter_count": {
+                            "balls": 0,
+                            "strikes": 0,
+                            "outs": 3,
+                            "pcount": 0,
+                            "errors": 0
+                        },
+                        "out_type": "ground_out"
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367933,
+                        "_scoutid": "5419437111-1716",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1716",
+                        "uts": 1677125616,
+                        "updated_uts": 1677125616,
+                        "type": "play_over_baseball",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 13,
+                        "seconds": 750,
+                        "name": "Play over baseball",
+                        "injurytime": 0,
+                        "team": "home",
+                        "bases": {
+                            "1": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "2": {
+                                "occupied": false,
+                                "player_id": null
+                            },
+                            "3": {
+                                "occupied": false,
+                                "player_id": null
+                            }
+                        },
+                        "home": {
+                            "hits": 0,
+                            "errors": 0
+                        },
+                        "away": {
+                            "hits": 0,
+                            "errors": 0
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382364117,
+                        "_scoutid": "5419437113-1081",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "1081",
+                        "uts": 1677124864,
+                        "updated_uts": 1677125615,
+                        "type": "unknown",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Current serve (Volleyball)",
+                        "injurytime": 0,
+                        "team": "",
+                        "typeid": "1081",
+                        "params": {
+                            "1": "2",
+                            "2": "",
+                            "3": "",
+                            "4": ""
+                        },
+                        "player": {
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367919,
+                        "_scoutid": "5419437113-35",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "35",
+                        "uts": 1677125615,
+                        "updated_uts": 1677125615,
+                        "type": "periodscore",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "1st inning",
+                        "injurytime": null,
+                        "team": "",
+                        "periodscore": {
+                            "home": 0,
+                            "away": 0
+                        },
+                        "result": {
+                            "home": 0,
+                            "away": 0,
+                            "winner": null
+                        },
+                        "matchStatus": {
+                            "_doc": "status",
+                            "_id": 30,
+                            "name": "Break"
+                        },
+                        "periodnumber": 1,
+                        "period": 101,
+                        "pointtype": "",
+                        "pointflag": "",
+                        "pointflagtranslation": ""
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367921,
+                        "_scoutid": null,
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "24",
+                        "uts": 1677125615,
+                        "updated_uts": 1677125615,
+                        "type": "periodstart",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": -1,
+                        "seconds": -1,
+                        "name": "Break",
+                        "injurytime": 0,
+                        "team": "",
+                        "period": 31
+                    },
+                    {
+                        "_doc": "event",
+                        "_id": 1382367925,
+                        "_scoutid": "5419437113-2232",
+                        "_sid": 3,
+                        "_rcid": 211,
+                        "_tid": 12575,
+                        "_dc": false,
+                        "_typeid": "2232",
+                        "uts": 1677125615,
+                        "updated_uts": 1677125615,
+                        "type": "half_inning_start",
+                        "matchid": 38909407,
+                        "disabled": 0,
+                        "time": 13,
+                        "seconds": 750,
+                        "name": "Baseball half inning start",
+                        "injurytime": 0,
+                        "team": "",
+                        "inning_half": "P"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Baseball</title>
+  <meta name="title" content="Baseball" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./js/controller.js"></script>
+  <script src="./js/const.js"></script>
+  <script src="./js/map.js"></script>
+  <script src="./js/variableInit.js"></script>
+  <script src="./js/staticFunc.js"></script>
+  <link type="text/css" href="./css/main.css" rel="stylesheet" />
+</head>
+
+<body onload="load()">
+  <div class="mainDiv">
+    <svg id="svg" width="800" height="425">
+      <filter id="shadow" color-interpolation-filters="sRGB">
+        <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.7" />
+      </filter>
+      <g id="scale" transform="scale(1)">
+        <g id="pitch">
+          <image id="pitchImage" href="./media/pitch3.png" x="0" y="0" width="800" />
+        </g>
+        <g id="Header">
+          <rect x="0" y="0" width="800" height="140" fill="#000" fill-opacity="0.5" />
+          <g transform="translate(0, -10)">
+            <rect x="355" y="15" width="90" height="24" rx="12" ry="12" fill="white" fill-opacity="0.3" />
+            <text id="score" fill="#fff" font-size="40" font-family="InriaSans" x="400" y="80" fill-opacity="1"
+              text-anchor="middle">
+              0-0
+            </text>
+            <text id="period" fill="#fff" font-size="18" font-family="InriaSans" x="400" y="33" fill-opacity="1"
+              text-anchor="middle"></text>
+          </g>
+          <g id="homecap">
+            <polygon id="homebox" points="0, 0 97, 0 67, 82 0, 82 " fill="#59a3cc" fill-opacity="0.9" />
+            <image href="./media/capL.png" width="50" x="10" y="30" />
+          </g>
+          <g id="awaycap">
+            <polygon id="awaybox" points="800, 0 703, 0 733, 82 800, 82 " fill="#0072b1" fill-opacity="0.9" />
+            <image href="./media/capR.png" width="50" x="740" y="30" />
+          </g>
+          <text id="headerHome" font-size="24" x="350" y="25" text-anchor="end" fill="#fff"> </text>
+          <text id="headerAway" font-size="24" x="450" y="25" text-anchor="start" fill="#fff"> </text>
+          <text id="homeRole" font-size="18" x="105" y="40" text-anchor="start" fill="#fff"></text>
+          <text id="homeMember" font-size="26" x="95" y="70" text-anchor="start" fill="#fff"></text>
+          <text id="awayRole" font-size="18" x="695" y="40" text-anchor="end" fill="#fff"></text>
+          <text id="awayMember" font-size="26" x="705" y="70" text-anchor="end" fill="#fff"></text>
+        </g>
+        <g id="overGroup" transform='translate(460, 150)'>
+          <rect id="overBackground" x='0' y='0' width='330' height='50' fill-opacity='0.5' />
+          <text id="overNumber1" font-size="20" x="27" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber2" font-size="20" x="82" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber3" font-size="20" x="137" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber4" font-size="20" x="192" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber5" font-size="20" x="247" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber6" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber7" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber8" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber9" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber10" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber11" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber12" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber13" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber14" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber15" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber16" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber17" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber18" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber19" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+          <text id="overNumber20" font-size="20" x="302" y="20" text-anchor="middle" fill="#fff"></text>
+
+          <text id="overState1" font-size="20" x="27" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState2" font-size="20" x="82" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState3" font-size="20" x="137" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState4" font-size="20" x="192" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState5" font-size="20" x="247" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState6" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState7" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState8" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState9" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState10" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState11" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState12" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState13" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState14" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState15" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState16" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState17" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState18" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState19" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+          <text id="overState20" font-size="20" x="302" y="40" text-anchor="middle" fill="#fff"> </text>
+
+        </g>
+        <g id="baseGroup" transform="translate(300, 100)">
+          <circle id="base1" cx="40" cy="15" r="10" fill="#fff" fill-opacity="0.2" />
+          <circle id="base2" cx="25" cy="0" r="10" fill="#fff" fill-opacity="0.2" />
+          <circle id="base3" cx="10" cy="15" r="10" fill="#fff" fill-opacity="0.2" />
+          <text id="base1Number" fill="#000" font-size="12" x="40" y="14" text-anchor="middle"
+            style="alignment-baseline: central;" fill-opacity="0.5">1</text>
+          <text id="base2Number" fill="#000" font-size="12" x="25" y="-1" text-anchor="middle"
+            style="alignment-baseline: central;" fill-opacity="0.5">2</text>
+          <text id="base3Number" fill="#000" font-size="12" x="10" y="14" text-anchor="middle"
+            style="alignment-baseline: central;" fill-opacity="0.5">3</text>
+
+          <text fill="#fff" font-size="12" x="80" y="-3" text-anchor="middle"
+            style="alignment-baseline: central;">1B</text>
+          <text fill="#fff" font-size="12" x="135" y="-3" text-anchor="middle"
+            style="alignment-baseline: central;">2B</text>
+          <text fill="#fff" font-size="12" x="190" y="-3" text-anchor="middle"
+            style="alignment-baseline: central;">3B</text>
+
+          <text id="base1Member" fill="#fff" font-size="12" x="80" y="17" text-anchor="middle"
+            style="alignment-baseline: central;">-</text>
+          <text id="base2Member" fill="#fff" font-size="12" x="135" y="17" text-anchor="middle"
+            style="alignment-baseline: central;">-</text>
+          <text id="base3Member" fill="#fff" font-size="12" x="190" y="17" text-anchor="middle"
+            style="alignment-baseline: central;">-</text>
+        </g>
+        <g id="periodScores" transform="translate(5, 83)">
+          <!-- <rect x="0" y="0" width="267" height="52" fill="black" fill-opacity="0.5" /> -->
+          <text font-size="12" x="60" y="15" text-anchor="middle" fill="#fff">1</text>
+          <text font-size="12" x="80" y="15" text-anchor="middle" fill="#fff">2</text>
+          <text font-size="12" x="100" y="15" text-anchor="middle" fill="#fff">3</text>
+          <text font-size="12" x="120" y="15" text-anchor="middle" fill="#fff">4</text>
+          <text font-size="12" x="140" y="15" text-anchor="middle" fill="#fff">5</text>
+          <text font-size="12" x="160" y="15" text-anchor="middle" fill="#fff">6</text>
+          <text font-size="12" x="180" y="15" text-anchor="middle" fill="#fff">7</text>
+          <text font-size="12" x="200" y="15" text-anchor="middle" fill="#fff">8</text>
+          <text font-size="12" x="220" y="15" text-anchor="middle" fill="#fff">9</text>
+          <text font-size="12" x="240" y="15" text-anchor="middle" fill="#fff">R</text>
+          <text font-size="12" x="260" y="15" text-anchor="middle" fill="#fff">H</text>
+          <text font-size="12" x="280" y="15" text-anchor="middle" fill="#fff">E</text>
+          
+          <line x1="5" x2="290" y1="20" y2="20" stroke="#fff" stroke-width="1" stroke-opacity="0.7" />
+
+          <text id="homeTableName" font-size="12" x="40" y="32" text-anchor="end" fill="#fff"></text>
+          <text id="homeTable1" font-size="12" x="60" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable2" font-size="12" x="80" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable3" font-size="12" x="100" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable4" font-size="12" x="120" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable5" font-size="12" x="140" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable6" font-size="12" x="160" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable7" font-size="12" x="180" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable8" font-size="12" x="200" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTable9" font-size="12" x="220" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTableR" font-size="12" x="240" y="32" text-anchor="middle" fill="#fff">-</text>
+          <text id="homeTableH" font-size="12" x="260" y="32" text-anchor="middle" fill="#fff">0</text>
+          <text id="homeTableE" font-size="12" x="280" y="32" text-anchor="middle" fill="#fff">0</text>
+
+          <text id="awayTableName" font-size="12" x="40" y="47" text-anchor="end" fill="#fff"></text>
+          <text id="awayTable1" font-size="12" x="60" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable2" font-size="12" x="80" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable3" font-size="12" x="100" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable4" font-size="12" x="120" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable5" font-size="12" x="140" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable6" font-size="12" x="160" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable7" font-size="12" x="180" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable8" font-size="12" x="200" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTable9" font-size="12" x="220" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTableR" font-size="12" x="240" y="47" text-anchor="middle" fill="#fff">-</text>
+          <text id="awayTableH" font-size="12" x="260" y="47" text-anchor="middle" fill="#fff">0</text>
+          <text id="awayTableE" font-size="12" x="280" y="47" text-anchor="middle" fill="#fff">0</text>
+        </g>
+        <g id="batterState">
+          <g id="batterStateB" transform="translate(550, 108)">
+            <text fill="#fff" font-size="12" x="0" y="-1" text-anchor="middle"
+              style="alignment-baseline: central;">B</text>
+            <circle id="ball1" cx="15" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="ball2" cx="30" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="ball3" cx="45" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+          </g>
+          <g id="batterStateS" transform="translate(630, 108)">
+            <text fill="#fff" font-size="12" x="0" y="-1" text-anchor="middle"
+              style="alignment-baseline: central;">S</text>
+            <circle id="strike1" cx="15" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="strike2" cx="30" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="strike3" cx="45" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+          </g>
+          <g id="batterStateO" transform="translate(710, 108)">
+            <text fill="#fff" font-size="12" x="0" y="-1" text-anchor="middle"
+              style="alignment-baseline: central;">O</text>
+            <circle id="outs1" cx="15" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="outs2" cx="30" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+            <circle id="outs3" cx="45" cy="0" r="5" fill="#fff" fill-opacity="0.2" />
+          </g>
+        </g>
+        <g id="strikePoints" transform="translate(170, 203)">
+          <!-- <rect x="0" y="0" width="170" height="189" fill="#000" fill-opacity="0.6"></rect> -->
+        </g>
+        <g id="ballRect" transform="translate(100, 20)">
+          <g fill="white">
+            <g fill-opacity="0.6">
+              <rect x="191" y="229" width="41" height="45"></rect>
+              <rect x="234" y="229" width="42" height="45"></rect>
+              <rect x="278" y="229" width="41" height="45"></rect>
+            </g>
+            <g transform="translate(0, 47)" fill-opacity="0.6">
+              <rect x="191" y="229" width="41" height="44"></rect>
+              <rect x="234" y="229" width="42" height="44"></rect>
+              <rect x="278" y="229" width="41" height="44"></rect>
+            </g>
+            <g transform="translate(0, 93)" fill-opacity="0.6">
+              <rect x="191" y="229" width="41" height="45"></rect>
+              <rect x="234" y="229" width="42" height="45"></rect>
+              <rect x="278" y="229" width="41" height="45"></rect>
+            </g>
+            <g fill-opacity="0.4">
+              <rect x="167" y="205" width="87" height="22"></rect>
+              <rect x="256" y="205" width="87" height="22"></rect>
+              <rect x="167" y="369" width="87" height="22"></rect>
+              <rect x="256" y="369" width="87" height="22"></rect>
+              <rect x="167" y="227" width="22" height="70"></rect>
+              <rect x="321" y="227" width="22" height="70"></rect>
+              <rect x="167" y="299" width="22" height="70"></rect>
+              <rect x="321" y="299" width="22" height="70"></rect>
+            </g>
+          </g>
+          <rect id="innerBall" x="190" y="228" width="130" height="140" fill="blue" fill-opacity="0"></rect>
+          <g id="roundBall" fill-opacity="0">
+            <rect x="168" y="206" width="174" height="20"></rect>
+            <rect x="168" y="370" width="174" height="20"></rect>
+            <rect x="168" y="226" width="20" height="144"></rect>
+            <rect x="322" y="226" width="20" height="144"></rect>
+          </g>
+          <text id="rectBallId2" x="255" y="298" fill="white" font-size="20" text-anchor="middle" alignment-baseline="central"></text>
+          <text id="rectBallId1" x="255" y="216" fill="white" font-size="20" text-anchor="middle" alignment-baseline="central"></text>
+        </g>
+        <g id="Text Begin">
+          <rect id="center_rect" x="255" y="220" width="290" height="110" style="
+                fill: black;
+                stroke: grey;
+                stroke-width: 0;
+                stroke-opacity: 0;
+              " fill-opacity="0" />
+          <rect id="commentary_rect" x="10" y="150" width="400" height="30" style="
+                fill: black;
+                stroke: grey;
+                stroke-width: 0;
+                stroke-opacity: 0;
+              " fill-opacity="0" />
+          <text id="center_text" fill="#fff" font-size="38" font-family="InriaSans" x="400" y="280" fill-opacity="1"
+            text-anchor="middle"></text>
+          <text id="bottom_text" fill="#fff" font-size="32" font-family="InriaSans" x="400" y="320" fill-opacity="0.71"
+            text-anchor="middle"></text>
+          <text id="commentary_text" fill="#fff" font-size="20" font-family="InriaSans" x="20" y="165" fill-opacity="1"
+            style="alignment-baseline: central;"></text>
+          <text id="commentary_text1" fill="#fff" font-size="20" font-family="InriaSans" x="20" y="190" fill-opacity="1"
+            style="alignment-baseline: central;"></text>
+        </g>
+      </g>
+    </svg>
+  </div>
+</body>
+
+</html>
