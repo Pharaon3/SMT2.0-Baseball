@@ -1,7 +1,7 @@
 function load() {
   const urlParams = new URLSearchParams(window.location.search);
   const eventId = Number(urlParams.get('id'));
-  socket = new WebSocket("ws://80.79.6.111:3443/websocket/1.0/xb_receiver/");
+  socket = new WebSocket("ws://109.236.84.5:3443/websocket/1.0/xb_receiver/");
   socket.onopen = function (e) {
     //socket.send(JSON.stringify({r:"authenticate", a:{key:"*******"}}));
     socket.send(JSON.stringify({ r: "subscribe_event", a: { id: eventId } }));
